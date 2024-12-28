@@ -1,0 +1,790 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Unbounded", serif;
+    transition: .4s;
+}
+.nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-inline: 13%;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+.left{
+    width: auto;
+}
+.left h1{
+    text-transform: uppercase;
+}
+.right{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.right a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.right a:hover{
+    border-bottom: 1px solid black;
+}
+
+.bag{
+    height: 4vh;
+    width: auto;
+    border: 1px solid grey;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-inline: 12px;
+
+}
+.b1 img{
+    width: 20px;
+}
+.round{
+    height: 2vh;
+    width: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.round p{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.icon i{
+    font-size: 24px;
+    display: none;
+}
+
+.main{
+    height: auto;
+    width: 100%;
+    padding-inline: 12%;
+    padding-top: 7%;
+}
+.time{
+    height: 530px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.t1{
+    height: 530px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.t1 h1{
+    text-transform: uppercase;
+    font-size: 95px;
+}
+.t1 span{
+    color: transparent; 
+    -webkit-text-stroke: 2px black;
+}
+.t2{
+    height: 530px;
+    width: 30%;
+}
+.t2 img{
+    width: 100%;
+}
+.t1 button{
+    height: 60px;
+    width: 280px;
+    background-color: black;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Unbounded", serif;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: .4s;
+}
+.t1 button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.re{
+    height: auto;
+    width: 100%;
+    margin-top: 10%;
+}
+.re h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+.san{
+    height: auto;
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.san img{
+    width: 10%;
+}
+.play{
+    margin-top: 5%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.our{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+.our1{
+    height: auto;
+    width: 65%;
+    display: flex;
+    gap: 50px;
+}
+.cap{
+    height: auto;
+    width: auto;
+}
+.cap1{
+    height: auto;
+    width: auto;
+}
+.cap h2{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 500;
+}
+.cap1 h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 500;
+}
+.creative{
+    height: auto;
+    width: 100%;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+.bulb{
+    height: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.bulb1{
+    height: 25vh;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(248,248,248);
+    border-radius: 5px;
+    padding-inline: 1px;
+}
+.bulb1 span{
+    color: gray;
+}
+.bulb1 h3{
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.bulb1 p{
+    font-size: 14px;
+    text-align: center;
+    font-weight: 400;
+}
+.work{
+    height: auto;
+    width: 100%;
+    margin-top: 8%;
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+}
+.work h1{
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.lucid{
+    margin-top: 3%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.lucid1{
+    height: auto;
+    width: 76%;
+    display: flex;
+    justify-content: space-between;
+}
+.strem1{
+    height:auto;
+    width: 48.5%;
+    position: relative;
+}
+.strem1 img{
+    width: 100%;
+    object-fit: cover;
+    background-size: cover;
+    height: 500px;
+}
+.stremer{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    bottom: 1px;
+}
+.stremer h2{
+    color: white;
+    position: relative;
+    top: 30%;
+    font-size: 21px;
+   
+}
+.viwe{
+    height: 130px;
+    width: 130px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.viwe h4{
+    font-size: 18px;
+}
+.year{
+    height: 600px;
+    width: 100%;
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+.year1{
+    height: 600px;
+    width: 76%;
+}
+.grow{
+    height: 200px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 30px;
+}
+.grow h1{
+    font-size: 65px;
+}
+.grow span{
+    font-size: 17px;
+    text-transform: uppercase;
+    line-height: 10px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+.latest h1{
+    padding-left: 12%;
+    margin-top: 5%;
+    text-transform: uppercase;
+    font-size: 45px;
+}
+.hub{
+    height: auto;
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+}
+.hub1{
+    height: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.buss{
+    height: auto;
+    width: 31%;
+    background-color: rgb(248,248,248);
+
+}
+.bu1{
+    height: auto;
+    width: 100%;
+}
+.bu1 img{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 5px;
+    transition: .4s;
+}
+.bu1 img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.bu2{
+    height: auto;
+    width: 100%;
+    padding-top: 10px;
+    padding-left: 10px;
+    line-height: 30px;
+    padding-bottom: 10px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+.bu2 p{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.bu2 h6{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.footer{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.foot1{
+    height: auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    border-bottom: 1px solid black;
+}
+.ff1{
+    height: 250px;
+    width: 20%;
+    padding-block: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.ff1 h3{
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+.ff1 p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.solvix{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+}
+.sol1{
+    height: 10vh;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sol1 h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.sol1 span{
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+@media (max-width:1440px) {
+    .time{
+        display: flex;
+        gap: 50px;
+    }
+    .t1{
+        height: 450px;
+        width: auto;
+    }
+    .t1 h1{
+        font-size: 70px ;
+    }
+    .t2{
+        width: auto;
+    }
+    .t2 img{
+        width: 400px;
+    }
+    .cap1 h1{
+        font-size: 25px;
+    }
+    .cap h2{
+        font-size: 18px;
+    }
+
+    .bulb{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .strem1 img{
+        height: 430px;
+    }
+    .grow h1{
+        font-size: 55px;
+    }
+    .grow span{
+        font-size: 14px;
+    }
+    .grow p{
+        font-size: 15px;
+    }
+    .latest h1{
+        font-size: 40px;
+    }
+    
+
+    
+}
+
+@media (max-width:1220px) {
+    .right{
+        gap: 20px;
+    }
+    .right a{
+        display: none;
+    }
+    .icon i{
+        font-size: 28px;
+        display: block;
+    }
+    .play img{
+        width: 50%;
+    }
+    .bulb{
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    .strem1 img{
+        height: 400px;
+    }
+    .grow h1{
+        font-size: 45px;
+    }
+    .grow span{
+        font-size: 12px;
+    }
+    .grow p{
+        font-size: 14px;
+    }
+    .hub1{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 34px;
+    }
+    .buss{
+        width: 47%;
+    }
+    
+}
+@media (max-width:1140px) {
+    .main{
+        height: auto;
+        padding-inline: 0;
+        overflow: hidden;
+    }
+    .time{
+        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+        padding-inline: 0;
+    }
+    .t1{
+        height: auto;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-inline: 15%;
+    }
+    .t2{
+        height: auto;
+        width: auto;  
+    }
+    .t1 h1{
+        font-size: 50px;
+    }
+    .t1 p{
+        margin-top: 5%;
+    }
+    .t1 button{
+        margin-top: 5%;
+
+    }
+    .re h1{
+        font-size: 25px;
+    }
+
+    .san{
+        margin-top: 12%;
+        display: flex;
+        flex-direction: column;
+        gap:40px;
+    }
+    .san img{
+        width: 20%;
+    }
+
+    .our1{
+        display: flex;
+        flex-direction: column;
+    }
+    .bulb{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        align-items: center;
+        justify-content: center;
+    }
+    .bulb1{
+        width: 49%;
+    }
+    .work h1{
+        font-size: 40px;
+    }
+    .lucid1{
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .strem1{
+        width: 100%;
+    }
+    .grow h1{
+        font-size: 35px;
+    }
+    .grow span{
+        font-size: 10px;
+    }
+    .grow p{
+        font-size: 12px;
+    }
+    
+}
+@media (max-width:995px) {
+    .grow{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+        gap: 20px;
+        height: auto;
+        line-height: 20px;
+
+    }
+    .year{
+        height: auto;
+    }
+    .year1{
+        height: auto;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+    }
+    .grow h1{
+        font-size: 55px;
+        margin-top: 10%;
+    }
+    .grow{
+        padding-bottom: 3%;
+    }
+    .latest h1{
+        font-size: 35px;
+    }
+    .foot1{
+        flex-wrap: wrap;
+    }
+    .ff1{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+    .sol1{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    
+}
+
+
+
+@media (max-width:768px) {
+    .our1{
+        width: 80%;
+    }
+    .cap1 h1{
+        font-size: 20px;
+    }
+    .cap h2{
+        font-size: 16px;
+    }
+    
+    .bulb1{
+        width: 80%;
+    }
+    .creative{
+        margin-top: 5%;
+    }
+    .work h1{
+        font-size: 35px;
+    }
+    .work{
+        padding-left: 12%;
+    }
+    .latest h1{
+        font-size: 30px;
+    }
+    .buss{
+        width: 100%;
+    }
+    .sol1 h1{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:600px) {
+    .t2{
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .t2 img{
+       width: 50%;
+    }
+    .t1 h1{
+        font-size: 40px;
+    }
+    .t1 p{
+        font-size: 12px;
+        margin-top: 5%;
+    }
+    .t1 button{
+        height: 40px;
+        width: 230px;
+        background-color: black;
+        border-radius: 30px;
+        color: white;
+        text-transform: uppercase;
+        font-family: "Unbounded", serif;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        transition: .4s;
+        margin-top: 5%;
+    }
+    .re h1{
+        font-size: 20px;
+    }
+
+    .san img{
+        width: 25%;
+    }
+    .creative{
+        margin-top: 10%;
+    }
+    .work h1{
+        font-size: 30px;
+    }
+    .strem1 h2{
+        font-size: 15px;
+    }
+    .viwe{
+        height: 100px;
+        width: 100px;
+    }
+    .viwe h4{
+        font-size: 14px;
+    }
+    .latest h1{
+        font-size: 25px;
+    }
+    .ff1{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sol1 h1{
+        font-size: 22px;
+    }
+    .sol1 p{
+        font-size: 14px;
+    }
+    
+    
+}
+
+@media (max-width:400px) {
+    .nav{
+        padding-inline: 10px;
+    }
+   .cap1 h1{
+    font-size: 16px;
+   }
+   .work h1{
+    font-size: 20px;
+}
+.strem1 h2{
+    font-size: 12px;
+}
+.latest h1{
+    font-size: 20px;
+}
+}
+
+
+
+
