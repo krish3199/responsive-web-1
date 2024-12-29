@@ -127,6 +127,8 @@
     height: auto;
     width: 100%;
     margin-top: 10%;
+    display: flex;
+    justify-content: center;
 }
 .re h1{
     text-transform: uppercase;
@@ -398,9 +400,10 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
-.ff1 h3{
+.ff1 h1{
     font-size: 20px;
     text-transform: uppercase;
+    text-align: start;
 
 }
 .ff1 p{
@@ -429,8 +432,70 @@
 .sol1 span{
     font-weight: 600;
     text-decoration: underline;
-    
+    color: purple;
 }
+@keyframes bestEffect {
+    0% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+    25% {
+        transform: scale(1.1) rotate(10deg);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+    75% {
+        transform: scale(1.1) rotate(-10deg);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+        opacity: 1;
+    }
+}
+span {
+    display: inline-block; /* Required for transform */
+    animation: bestEffect 2s infinite ease-in-out;
+}
+
+@keyframes titlePulse {
+    0% {
+        transform: scale(1) rotate(0deg);
+        color: #000;
+        text-shadow: 0 0 5px #aaa;
+    }
+    25% {
+        transform: scale(1.1) rotate(3deg);
+        color: #ff5722;
+        text-shadow: 0 0 15px #ff5722;
+    }
+    50% {
+        transform: scale(1) rotate(0deg);
+        color: #2196f3;
+        text-shadow: 0 0 15px #2196f3;
+    }
+    75% {
+        transform: scale(1.1) rotate(-3deg);
+        color: #4caf50;
+        text-shadow: 0 0 15px #4caf50;
+    }
+    100% {
+        transform: scale(1) rotate(0deg);
+        color: #000;
+        text-shadow: 0 0 5px #aaa;
+    }
+}
+h1 {
+    animation: titlePulse 3s infinite ease-in-out;
+    display: inline-block; /* Ensures transform works properly */
+    text-align: center;
+    font-size: 2.5rem; /* Adjust as needed */
+    margin: 0;
+}
+
 
 
 @media (max-width:1440px) {
