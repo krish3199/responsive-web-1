@@ -456,45 +456,12 @@
         opacity: 1;
     }
 }
-span {
+   .solvix span {
     display: inline-block; /* Required for transform */
     animation: bestEffect 2s infinite ease-in-out;
 }
 
-@keyframes titlePulse {
-    0% {
-        transform: scale(1) rotate(0deg);
-        color: #000;
-        text-shadow: 0 0 5px #aaa;
-    }
-    25% {
-        transform: scale(1.1) rotate(3deg);
-        color: #ff5722;
-        text-shadow: 0 0 15px #ff5722;
-    }
-    50% {
-        transform: scale(1) rotate(0deg);
-        color: #2196f3;
-        text-shadow: 0 0 15px #2196f3;
-    }
-    75% {
-        transform: scale(1.1) rotate(-3deg);
-        color: #4caf50;
-        text-shadow: 0 0 15px #4caf50;
-    }
-    100% {
-        transform: scale(1) rotate(0deg);
-        color: #000;
-        text-shadow: 0 0 5px #aaa;
-    }
-}
-h1 {
-    animation: titlePulse 3s infinite ease-in-out;
-    display: inline-block; /* Ensures transform works properly */
-    text-align: center;
-    font-size: 2.5rem; /* Adjust as needed */
-    margin: 0;
-}
+
 
 
 
